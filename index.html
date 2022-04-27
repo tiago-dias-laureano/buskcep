@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/style.css">
+    <title>BuskCep | Encontre ceps e endereços.</title>
+</head>
+<body>
+    <div class="content">
+        <div class="title">
+            BuskCep
+        </div>
+        <div class="search-group">
+            <div class="input-text">
+                <input type="text" name="cep" id="cep" placeholder="01001000">
+            </div>
+            <div class="input-button">
+                <button class="i-button" type="submit" onclick="cepApi()">
+                    Buscar
+                </button>
+            </div>
+
+            <div class="div-info-cep">
+                <span class="name-info-title">
+                    Rua: <span class="name-info-content" id="name-rua"></span>
+                </span>
+                
+                <span class="name-info-title">
+                    Bairro: <span class="name-info-content" id="name-bairro"></span>
+                </span>
+                <span class="name-info-title">
+                    Cidade: <span class="name-info-content" id="name-cidade"></span>
+                </span>
+                <span class="name-info-title">
+                    UF: <span class="name-info-content" id="name-uf"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <script src="/assets/script.js"></script>
+</body>
+</html>
