@@ -1,7 +1,7 @@
 # BuskCep
 
 <h2>Apresentação</h2>
-<p>BuskCep é uma aplicação que cpnsome a api da ViaCep para disponibilizar informações de lougradouros brasileiras.</p><br>
+<p>BuskCep é uma aplicação que consome a api da ViaCep para disponibilizar informações de lougradouros brasileiras.</p><br>
 
 <h2> Imagem do projeto em Desktop</h2>
 <img src="https://i.ibb.co/6sn6qkT/Captura-de-tela-em-2022-04-28-10-54-13.png">
